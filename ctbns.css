@@ -1,0 +1,15 @@
+body {
+    /*background-color: rgb(214, 222, 229);*/
+    background: url(bg.jpg);
+}
+* {
+    color: rgb(95, 43, 43);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 36px;
+}
+#to_n{
+    color: rgb(219, 20, 20);
+    font-weight: bold;
+    padding-top: 30px;
+}
