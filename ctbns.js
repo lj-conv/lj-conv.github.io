@@ -38,7 +38,7 @@ function tr(){
     from_s = Number(document.getElementById('from_s').value);
     from_n = document.getElementById('from_n').value;
     to_s = Number(document.getElementById('to_s').value);
-    if (to_s > nums.length || to_s < 2){
+    if (to_s > 36 || to_s < 2){
         alert("Основание системы счисления должно лежать в диапозоне от 2 до " + nums.length);
         return undefined;
     }
