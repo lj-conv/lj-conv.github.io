@@ -62,7 +62,7 @@ function tr(){
     }
     var res = "";
     for (var m = lg(num_N, to_s); m >= 0; m--){
-        res += String(division(num_N, pow(to_s, m)));
+        res += String(nums[division(num_N, pow(to_s, m))]);
         num_N %= pow(to_s, m);
     }
     res = d0_str(res);
