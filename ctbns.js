@@ -71,3 +71,9 @@ function tr(){
     document.getElementById('from_s').value = '';
     document.getElementById('to_s').value = '';
 }
+function hand(event){
+    if (event.code == "Enter"){
+        tr()
+    }
+}
+document.addEventListener('keyup', hand)
