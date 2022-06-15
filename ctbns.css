@@ -1,6 +1,6 @@
 body {
     /*background-color: rgb(214, 222, 229);*/
-    background: url(bg.jpg);
+    background: url(bg.jpg) repeat-y;
 }
 * {
     color: rgb(95, 43, 43);
